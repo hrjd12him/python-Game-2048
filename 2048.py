@@ -17,7 +17,7 @@ class Game2048(Frame):
             c.KEY_RIGHT: LogicsFinal.move_right,
         }
 
-        self.grid_cells = []
+        self.grid_c = []
         self.init_grid()
         self.init_matrix()
         self.update_grid_cells()
